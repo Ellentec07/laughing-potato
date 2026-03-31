@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  background-image: url("https://cmsapi-frontend.naruto-official.com/site/api/naruto/Image/get?path=/naruto/jp/topspecialbanner/2025/05/20/NERBQ2HMZjKSOEri/UI6HcxgNU9jpUQNaJ4dhCGybaHDPcsyy.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+
+.container ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
+}
+
+
+.container li {
+  display: flex;
+  align-items: center;
+}
+
+
+.container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  gap: 8px;
+}
+
+
+.container a img {
+  display: block;
+}
+.container a{
+  display:flex; 
+  flex-direction: column;
+}
+
+.container a:hover {
+  color: rgb(255, 253, 253);
+}
+
